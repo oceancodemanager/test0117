@@ -23,6 +23,7 @@ public class ClassTest {
 			System.out.println(stream.readUnsignedShort()); // constant_pool_count:
 
 			stream.close();
+			// TEST
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
