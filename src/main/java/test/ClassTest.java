@@ -21,6 +21,7 @@ public class ClassTest {
 																					// 0
 			System.out.println(stream.readUnsignedShort()); // major_version: 51
 			System.out.println(stream.readUnsignedShort()); // constant_pool_count:
+
 			stream.close();
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
